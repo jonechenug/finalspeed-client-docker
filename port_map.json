@@ -1,0 +1,14 @@
+{
+    "map_list": [
+        {
+            "dst_port": 1111,
+            "listen_port": 2222,
+            "name": "ss"
+        },
+        {
+            "dst_port": 3333,
+            "listen_port": 4444,
+            "name": "ssh"
+        }
+    ]
+}

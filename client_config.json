@@ -1,0 +1,8 @@
+{
+    "download_speed": 11200698,
+    "protocal": "udp",
+    "server_address": "1.2.3.4",
+    "server_port": 150,
+    "socks5_port": 1083,
+    "upload_speed": 357469
+}
