@@ -1,13 +1,13 @@
 {
     "map_list": [
         {
-            "dst_port": 1099,
-            "listen_port": 14899,
+            "dst_port": 14899,
+            "listen_port": 1099,
             "name": "ss"
         },
         {
-            "dst_port": 2200,
-            "listen_port": 14890,
+            "dst_port": 14890,
+            "listen_port": 2200,
             "name": "ssh"
         }
     ]
