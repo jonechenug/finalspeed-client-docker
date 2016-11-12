@@ -1,4 +1,4 @@
-FROM 8-jre
+FROM openjdk-8-jre
 
 MAINTAINER jonechenug <jonechenug@gmail.com>
 
