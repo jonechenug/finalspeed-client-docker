@@ -1,12 +1,10 @@
-FROM ubuntu:14.04
+FROM 8-jre
 
 MAINTAINER jonechenug <jonechenug@gmail.com>
 
 RUN apt-get update
-RUN apt-get dist-upgrade -y
 
-RUN apt-get install -y --force-yes libpcap-dev
-RUN apt-get install -y --force-yes openjdk-7-jre
+RUN apt-get install  libpcap-dev -y
 
 RUN apt-get clean
 
