@@ -2,6 +2,9 @@ FROM java:openjdk-8-jre
 
 MAINTAINER jonechenug <jonechenug@gmail.com>
 
+ARG source=.
+WORKDIR /fs
+
 COPY $source .
 
 RUN apt-get update
@@ -17,13 +20,8 @@ COPY fs.ini /etc/supervisor/conf.d/fs.ini
 
 RUN supervisord -c /etc/supervisord.conf
 
-ARG source=.
-WORKDIR /fs
 
 EXPOSE 1099
 EXPOSE 2200
 
-CMD ["supervisorctl", ]
-
-
-
+CMD ["supervisorctl"]
