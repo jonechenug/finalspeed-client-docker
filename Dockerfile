@@ -17,4 +17,4 @@ COPY $source .
 EXPOSE 1099
 EXPOSE 2200
 
-CMD ["sh", "-c", "java -Xmx256M  -jar client.jar -b"]
+CMD ["sh", "-c", "java -jar client.jar -b"]
